@@ -159,9 +159,9 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     accepted: "Aceito"
     rejected: "Rejeitado"
     withdrawn: "Retirado"
-#    accept: "Accept"
-#    reject: "Reject"
-#    withdraw: "Withdraw"
+    accept: "Aceitar"
+    reject: "Rejeitar"
+    withdraw: "Retirar"
     submitter: "Enviar"
     submitted: "Enviado"
     commit_msg: "Mensagem de Submissão"
@@ -217,8 +217,8 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
 
   play_level:
     done: "Pronto"
-#    next_game: "Next game"
-#    show_menu: "Show game menu"
+    next_game: "Próximo nível"
+    show_menu: "Mostrar menu do jogo"
     home: "Início" # Not used any more, will be removed soon.
     level: "Fase" # Like "Level: Dungeons of Kithgard"
     skip: "Pular"
@@ -343,7 +343,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     tip_free_your_mind: "Você tem que deixar isso tudo passar, Neo. O medo, a dúvida e a descrença. Liberte sua mente - Morpheus"
     tip_strong_opponents: "Mesmo o mais forte dos adversários tem sua fraqueza. - Itachi Uchiha"
     tip_paper_and_pen: "Antes de começar a programar, você sempre deve planejar com papel e caneta."
-#    solve_then_write: "First, solve the problem. Then, write the code. - John Johnson"
+    tip_solve_then_write: "Primeiro resolva o problema, ai então escreva o código. - John Johnson"
 
   game_menu:
     inventory_tab: "Inventário"
@@ -413,7 +413,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     feature7: "<strong>Clãs</strong> Privados"
     free: "Grátis"
     month: "mês"
-#    must_be_logged: "You must be logged in first. Please create an account or log in from the menu above."
+    must_be_logged: "Você precisa estar logado primeiro. Por favor, crie uma conta ou logue-se pelo menu acima."
     subscribe_title: "Inscrever-se"
     unsubscribe: "Desinscrever-se"
     confirm_unsubscribe: "Confirmar Desinscrição"
@@ -441,7 +441,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     payment_methods_title: "Formas de pagamento aceitas"
     payment_methods_blurb1: "Aceitamos cartões de crédito e Alipay no momento."
     payment_methods_blurb2: "Se você precisa de outra forma de pagamento, por favor contate"
-    sale_already_subscribed: "Você já está subscrito!"
+    sale_already_subscribed: "Você já é um assinante!"
     sale_blurb1: "Economize 35%"
     sale_blurb2: "desconto regular de assinatura por U$120 durante um ano inteiro!"
     sale_button: "Venda!"
@@ -510,9 +510,9 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     attack: "Ataque" # Can also translate as "Attack"
     health: "Vida"
     speed: "Velocidade"
-    regeneration: "Cura"
-    range: "Distância de Ataque" # As in "attack or visual range"
-    blocks: "Bloqueio" # As in "this shield blocks this much damage"
+    regeneration: "Regeneração"
+    range: "Alcance de Ataque" # As in "attack or visual range"
+    blocks: "Bloqueia" # As in "this shield blocks this much damage"
     backstab: "Dano de volta" # As in "this dagger does this much backstab damage"
     skills: "Habilidades"
     attack_1: "Retira"
@@ -530,8 +530,8 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
   skill_docs:
     writable: "gravável" # Hover over "attack" in Your Skills while playing a level to see most of this
     read_only: "apenas leitura"
-#    action: "Action"
-#    spell: "Spell"
+    action: "Ação"
+    spell: "Feitiço"
     action_name: "nome"
     action_cooldown: "Demora"
     action_specific_cooldown: "Recarregando"
@@ -607,11 +607,11 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     intro_1: "CodeCombat é um jogo online que ensina programação. Estudantes criam código em linguagens de programação usadas na vida real."
     intro_2: "Não é necessário ter experiência!"
     free_title: "Quanto custa?"
-#    cost_premium_server: "CodeCombat is free for the first five levels, after which it costs $9.99 USD per month for access to our other 190+ levels on our exclusive country-specific servers."
+   cost_premium_server: "CodeCombat é grátuito nos primeiros 5 níveis, depois disso custará $9.99 USD por mês para ter acesso à nossos outros mais de 190 níveis em nossos servidores exclusivos de cada país."
     free_1: "CodeCombat Basic é gratuito! Há mais de 80 níveis gratuitos que cobrem todos os conceitos." # {change}
     free_2: "Uma assinatura mensal dá acesso aos vídeos tutoriais e mais níveis para praticar."
     teacher_subs_title: "Professores recebem assinaturas gratuitas!"
-#    teacher_subs_0: "We offer free subscriptions to teachers for evaluation purposes."
+   teacher_subs_0: "Nós oferecemos assinaturas grátis à professores para fins de avaliação."
     teacher_subs_1: "Por favor contate" # {change}
     teacher_subs_2: "para organizar uma assinatura mensal." # {change}
     teacher_subs_3: "para configurar sua assinatura"
@@ -651,8 +651,8 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     more_info_2: "fórum de professores"
     more_info_3: "é um bom lugar para se conectar com ótimos educadores que utilizam o CodeCombat."
     sys_requirements_title: "Requisitos de Sistema"
-    sys_requirements_1: "Pelo motivo de CodeCombat ser um jogo, é mais intenso para ser processado em computadores do que tutoriais em vídeo ou escritos. Estamos otimizando para que rode rapidamente em todos navegadores modernos e também em computadores antigos, assim todos podem jogar. Sendo assim, aqui estão as nossas sugestões para tirar o máximo proveito da experiência de CodeCombat:" # {change}
-    sys_requirements_2: "Use versões novas dos navegadores Chrome ou Firefox." # {change}
+    sys_requirements_1: "Pelo fato de CodeCombat ser um jogo, é mais difícil de ser processado em computadores do que tutoriais em vídeo ou escritos. Estamos otimizando para que rode rapidamente em todos navegadores modernos e também em computadores antigos, assim todos podem jogar. Sendo assim, aqui estão as nossas sugestões para tirar o máximo proveito da experiência de CodeCombat:" # {change}
+    sys_requirements_2: "Use versões novas de navegadores como Chrome, Safari ou Firefox." # {change}
 
   teachers_survey:
     title: "Pesquisa de professor"
@@ -1355,7 +1355,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     no_changes: "Sem Alterações"
 
   temp:
-    ace_of_coders_tournament: "Novo: jogue no torneio Ás dos Programadores agora!"
+    ace_of_coders_tournament: "Novo: jogue no torneio dos Programadores agora!"
 
   multiplayer:
     multiplayer_title: "Configurações de Multijogador" # We'll be changing this around significantly soon. Until then, it's not important to translate.
